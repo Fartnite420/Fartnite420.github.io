@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(22, 22, 22);
+  color: rgb(221, 221, 221);
+  font-family: "Sans-serif", Verdana;
+}
+
+.sidenav {
+  width: 10%;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: rgb(37, 37, 37);
+  overflow-x: hidden;
+  border-radius: 5px;
+  padding: 8px 0;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+a {
+  color: rgb(221, 221, 221);
+  text-decoration: none;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+.pro {
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 25px;
+  background: rgb(15, 15, 15);
+  padding: 20px;
+  width: 90%;
+  height: 90%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/blue-grid-background-design-template-1e1c68884da701e5b3f6d35b07007fe8_screen.jpg?ts=1587783675");
+  background-blend-mode: darken;
+  background-size: 50%;
+}
+.grid {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.tab {
+  border-radius: 25px;
+  margin: auto;
+  background: rgb(37, 37, 37);
+  padding: 20px;
+  width: 60%;
+  height: 60%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0.356);
+}
+
+h1 {
+  text-align: center;
+  margin-top: -10px;
+}
